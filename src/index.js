@@ -1,11 +1,14 @@
-import React from 'react';
+import React from 'react'
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from "./App"
+import FirstComp from './FirstComp';
+import SecondComp from './SecondComp';
 
 ReactDOM.render(
-  <div>
-    Приложение работает
-    <button>Кнопка</button>
-  </div>,
-  document.getElementById('root')
+  <>
+    <App></App>
+    <FirstComp></FirstComp>
+    <SecondComp></SecondComp>
+  </>,
+  document.querySelector(".wrapper")
 );
