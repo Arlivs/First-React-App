@@ -2,19 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    color: black;
 }
-.paragraf{
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-}
-.app{
-    max-width: 800px;
-    margin: 0 auto;
-}
-.wrapper{
-    display: flex;
-    flex-direction: column;
+.header{
+    position: absolute;
+    top: 0;
+    flex: 1 1;
 }
 .sec-comp,.first-comp{
     width: 400px;
@@ -22,4 +15,10 @@
     text-align: center;
     padding: 10px 0;
     background-color: rgb(170, 170, 170);
+}
+.sec-comp{
+    margin-top: 100px;
+}
+.header + div,p{
+    margin-top: 100px;
 }
