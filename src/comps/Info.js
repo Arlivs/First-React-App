@@ -1,14 +1,17 @@
 function Info() {
     return(
-    <section class="info-body">
-        <div class="container">
-            <div class="info-header">
-                <p class="info-title">
+    <>
+    <section className="info-body">
+        <div className="container">
+            <div className="info-header">
+                <p className="info-title">
                     Here you can search all information about this application
                 </p>
+                lalalalal
             </div>
         </div>
     </section>
+    </>
     )
 }
 export default Info;

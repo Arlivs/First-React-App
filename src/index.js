@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import Header from "./Header"
+import App from './app';
 
 ReactDOM.render(
   <>
-    <Header></Header>
+  <App></App>
   </>,
   document.querySelector(".wrapper")
 );
