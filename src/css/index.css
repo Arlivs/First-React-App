@@ -7,7 +7,6 @@
 .header{
     position: absolute;
     top: 0;
-    flex: 1 1;
 }
 .sec-comp,.first-comp{
     width: 400px;
@@ -21,4 +20,10 @@
 }
 .header + div, .banner, .info-body{
     margin-top: 100px;
+}
+.header-link{
+    width: 100%;
+}
+.navbar.active{
+    display: none;
 }
