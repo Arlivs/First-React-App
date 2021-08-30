@@ -27,3 +27,10 @@
 .navbar.active{
     display: none;
 }
+.comp3-header, .comp2-header{
+    padding: 10px;
+    border: 2px solid black;
+    max-width: 400px;
+    margin: 20px auto 0;
+    text-align: center;
+}

@@ -1,4 +1,4 @@
-function Banner() {
+function Home() {
     return(
     <>
         <div className="banner">
@@ -19,4 +19,4 @@ function Banner() {
     </>
     )
 }
-export default Banner
+export default Home
