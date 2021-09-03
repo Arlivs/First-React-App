@@ -9,7 +9,6 @@ const data = [
     {title: "lala1", href:"/info/comp2"},
     {title: "lala2", href:"/info/comp3"},
 ]
-
 export default function Navbar() {
     return (
     <BrowserRouter>
