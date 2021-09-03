@@ -19,9 +19,9 @@ export default function Navbar() {
         </div>
         <nav className="header-nav">
             <Link to="/" className="header-nav_item _info">Домой</Link>
-            <Link to="/info" className="header-nav_item _help">Информация</Link>
+            <Link to="/info" className="header-nav_item _help">Инфо</Link>
             <Link to="/simple" className="header-nav_item _updates">Компонент</Link>
-            <a className="header-nav_item _contacts">Контакты</a>
+            <a href="/" className="header-nav_item _contacts">Контакты</a>
         </nav>
         <div className="registr">
             <button className="registr-btn"><Link to="/login">Регистрация</Link></button>
