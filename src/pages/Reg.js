@@ -1,5 +1,5 @@
 import "../css/login.css"
-import RegData from "./RegData"
+import RegData from "../comps/RegData"
 
 function Register() {
     return(

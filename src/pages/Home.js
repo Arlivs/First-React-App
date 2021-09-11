@@ -1,4 +1,3 @@
-import SimpleComp from "./SimpleComp"
 function Home() {
     return(
     <>
@@ -7,7 +6,6 @@ function Home() {
                 <div className="banner-header">
                     Its a Main Page of this application
                 </div>
-                <SimpleComp></SimpleComp>
                 <div className="banner-content">
                     SOme content
                 </div>

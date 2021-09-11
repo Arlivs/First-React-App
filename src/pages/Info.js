@@ -1,22 +1,22 @@
-import { Link, Route } from "react-router-dom";
-import { createRef } from "react";
-import Comp2 from "./items2/comp2";
-import Comp3 from "./items2/comp3";
-import { useState } from 'react'
+import {Link} from "react-router-dom";
+import { createRef, useState } from "react";
+import "../css/index.css"
 
-
-function Info(props) {
+export default function Info(props) {
     const listItem = Array.from(props.data)
-    .map(el => <Link className="list-item" to={el.href}>{el.title}</Link>)
-    function funcKey() {
+    .map(el =><Link
+        className="list-item" 
+        to={el.href}  
+        key={Math.random()}>{el.title}
+    </Link>)
+    const funcKey = () => {
         textOut.current.innerHTML = textInput.current.value
         stFunc(textInput.current.value)
     }
     const textInput = createRef()
     const textOut = createRef()
-    const [ stateText, stFunc] = useState("текст")
-    return(
-    <>
+    const [stateText, stFunc] = useState("текст")
+    return(<>
     <section className="info">
         <div className="container">
             <div className="info-header">
@@ -33,13 +33,6 @@ function Info(props) {
             </div>
         </div>
     </section>
-    <Route path="/info/comp2">
-        <Comp2/>
-    </Route>
-    <Route path="/info/comp3">
-        <Comp3/>
-    </Route>
     </>
     )
 }
-export default Info;

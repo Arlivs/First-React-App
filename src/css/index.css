@@ -15,11 +15,17 @@
     padding: 10px 0;
     background-color: rgb(170, 170, 170);
 }
-.sec-comp{
+.sec-comp,.header + div,
+ .banner, .info-body, .comp2{
     margin-top: 100px;
 }
-.header + div, .banner, .info-body{
-    margin-top: 100px;
+.comp2-comments{
+    margin-top: 40px;
+}
+textarea{
+    border: 1px solid black;
+    max-width: 200px;
+    max-height: 100px;
 }
 .header-link{
     width: 100%;
@@ -58,4 +64,11 @@ input {
     border-radius: 5px;
     padding: 5px;
     margin-top: 20px;
+}
+li{
+    text-align: left;
+}
+.comp-box{
+    display: flex;
+    justify-content: space-between;
 }
